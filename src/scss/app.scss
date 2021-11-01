@@ -1,0 +1,46 @@
+// Your custom variables should be here
+// $bootstrap-variable: value;
+
+$theme-colors: (
+  "primary": #ff014a,
+);
+
+// Import main Bootstrap styles
+@import "~bootstrap/scss/bootstrap";
+@import "material-icons";
+
+
+.whos-on-today{
+  max-width: 375px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+h1, p{
+  text-align: center;
+}
+th{
+  width: calc(100% / 6);
+}
+.whos-on-today th{
+  width: calc(100% / 2);
+}
+
+footer {
+  height: 3em;
+  margin-top: -3em;
+}
+
+main {
+  min-height: 100%;
+  padding-bottom: 3em; 
+}
+
+@media (min-height: 850px) {
+  footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}

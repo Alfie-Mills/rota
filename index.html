@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Basic page info -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What week is it?</title>
+
+    <!-- Website icon -->
+    <link rel="shortcut icon" type="image/png" href="https://dashboard.boxchilli.com/email/boxchilli.png">
+
+    <!-- CSS includes -->
+    <link rel="stylesheet" href="dist/css/style.css">
+
+    <!-- Meta information -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+
+    <!-- Social media (frontend only) -->
+    <meta property="og:site_name" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:locale" content="en_US">
+</head>
+<body>
+
+<main>
+
+    <section class="container mt-5 bg-white">
+        <h1>Kitchen 🍽 and Bins 🗑 rota</h1>
+    </section>
+
+    <section class="container mt-2 mb-5">
+
+        <div class="whos-on-today">
+
+            <h2>Whos on today? 🤔</h2>
+
+            <table class="table table-bordered table-hover shadow p-3 mb-5 bg-white rounded">
+                <thead>
+                    <tr class="table-primary text-light">
+                      <th scope="col">Kitchen 🍽</th>
+                      <th scope="col">Bins 🗑</th>
+    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <th scope="row" id="whosOnKitchen"></th>
+                      <th scope="row" id=whosOnBins></th>
+                    </tr>
+                </tbody>
+    
+    
+            </table>
+        </div>
+
+
+
+    </section>
+    <section class="container-xl mt-5">
+
+        <div><h2>Full Table: <span class="font-weight-normal" id="week"></span></h2></div>
+
+        <table class="table table-bordered table-hover shadow p-3 mb-5 bg-white rounded">
+            <thead>
+              <tr class="table-primary text-light">
+                <th scope="col">Week 1</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+              </tr>
+            </thead>
+            <tbody id="week1">
+              <tr>
+                <th scope="row">Kitchen</th>
+                <td>Taylor</td>
+                <td>James</td>
+                <td>Alfie</td>
+                <td>Emma</td>
+                <td>Phoebe</td>
+              </tr>
+              <tr>
+                <th scope="row">Bins</th>
+                <td>Alfie</td>
+                <td>James</td>
+                <td>Alfie</td>
+                <td>Emma</td>
+                <td>Phoebe</td>
+              </tr>
+            </tbody>
+
+            <thead>
+              <tr class="table-primary text-light">
+                <th scope="col">Week 1</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+              </tr>
+            </thead>
+            <tbody id="week2">
+              <tr>
+                <th scope="row">Kitchen</th>
+                <td>2Taylor</td>
+                <td>2James</td>
+                <td>Alfie</td>
+                <td>21Emma</td>
+                <td>2Phoebe</td>
+              </tr>
+              <tr>
+                <th scope="row">Bins</th>
+                <td>2Taylor</td>
+                <td>2James</td>
+                <td>Alfie</td>
+                <td>2Emma</td>
+                <td>2Phoebe</td>
+              </tr>
+            </tbody>
+            
+          </table>
+    </section>
+
+</main>
+<footer class="container" style="">
+    <p>Made by <a href="https://github.com/Alfie-Mills/rota">Alfie Mills</a></p>
+</footer>
+
+
+<!-- JavaScript includes -->
+<script src="dist/js/app.js"></script>
+</body>
+</html>
