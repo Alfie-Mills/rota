@@ -1,1 +1,1 @@
-# Quick Rota built on bootstrap by Alfie Mills
+# Quick JS app built on bootstrap by Alfie Mills
